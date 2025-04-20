@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - VerdeVista</title>
+  <meta name="description" content="Learn about VerdeVista's story, mission, values, and commitment to sustainability in eco-friendly skincare." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="main.js" defer></script>
+</head>
+<body class="font-montserrat bg-white text-gray-800 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-green-100 shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold text-green-700">VerdeVista</a>
+      <nav class="hidden md:flex space-x-6 text-green-700 font-semibold">
+        <a href="index.html" class="hover:text-green-900">Home</a>
+        <a href="catalog.html" class="hover:text-green-900">Products</a>
+        <a href="about.html" class="hover:text-green-900">About Us</a>
+        <a href="contact.html" class="hover:text-green-900">Contact Us</a>
+        <a href="terms.html" class="hover:text-green-900">Terms & Conditions</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button id="cart-button" aria-label="Shopping Cart" class="relative text-green-700 hover:text-green-900 focus:outline-none">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+          <span id="cart-count" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">0</span>
+        </button>
+        <button id="mobile-menu-button" class="md:hidden text-green-700 hover:text-green-900 focus:outline-none">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden md:hidden bg-green-50 p-4 space-y-2">
+      <a href="index.html" class="block text-green-700 font-semibold hover:text-green-900">Home</a>
+      <a href="catalog.html" class="block text-green-700 font-semibold hover:text-green-900">Products</a>
+      <a href="about.html" class="block text-green-700 font-semibold hover:text-green-900">About Us</a>
+      <a href="contact.html" class="block text-green-700 font-semibold hover:text-green-900">Contact Us</a>
+      <a href="terms.html" class="block text-green-700 font-semibold hover:text-green-900">Terms & Conditions</a>
+    </nav>
+  </header>
+
+  <!-- About Us Content -->
+  <main class="container mx-auto px-4 py-16 max-w-4xl">
+    <h1 class="text-4xl font-bold text-green-800 mb-8 text-center">Our Story</h1>
+
+    <div class="mb-12 text-center">
+      <img src="https://images.pexels.com/photos/3965546/pexels-photo-3965546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600" alt="Nature and skincare" class="mx-auto rounded-lg shadow-lg" />
+    </div>
+
+    <section class="mb-12 text-green-700">
+      <p class="mb-4">VerdeVista was founded with a passion for creating premium skincare products that nurture your natural beauty while protecting the planet. Our journey began with a commitment to sustainability, natural ingredients, and ethical practices.</p>
+      <p class="mb-4 font-semibold">Mission Statement:</p>
+      <p class="mb-4 italic">At VerdeVista, we are committed to creating premium skincare products that not only enhance your beauty but also promote a sustainable future.</p>
+      <p class="mb-4 font-semibold">Our Values:</p>
+      <ul class="list-disc list-inside mb-4">
+        <li>Sustainability</li>
+        <li>Natural Ingredients</li>
+        <li>Ethical Practices</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-green-800 mb-6 text-center">Meet the Team</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center text-green-700">
+        <div>
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Shoaib Taj" class="mx-auto rounded-full w-32 h-32 mb-4" />
+          <h3 class="font-semibold text-lg">Shoaib Taj</h3>
+          <p>Founder & Owner</p>
+        </div>
+        <div>
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team Member" class="mx-auto rounded-full w-32 h-32 mb-4" />
+          <h3 class="font-semibold text-lg">Ayesha Khan</h3>
+          <p>Product Development</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12 text-green-700">
+      <h2 class="text-2xl font-bold text-green-800 mb-6 text-center">Our Commitment to the Planet</h2>
+      <p>We use eco-friendly packaging made from recycled materials, source ingredients sustainably, and actively support environmental initiatives to reduce our carbon footprint.</p>
+      <a href="contact.html" class="inline-block mt-6 bg-green-700 text-white px-6 py-3 rounded shadow hover:bg-green-800 transition">Join Our Sustainability Journey</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-200 py-8 mt-auto">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-green-800 text-sm">
+      <nav class="space-x-6 mb-4 md:mb-0">
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="contact.html" class="hover:underline">Contact Us</a>
+        <a href="terms.html" class="hover:underline">Terms & Conditions</a>
+      </nav>
+      <div class="flex space-x-6">
+        <a href="#" aria-label="Instagram" class="hover:text-green-900"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" aria-label="Facebook" class="hover:text-green-900"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" aria-label="Pinterest" class="hover:text-green-900"><i class="fab fa-pinterest fa-lg"></i></a>
+        <a href="#" aria-label="Twitter" class="hover:text-green-900"><i class="fab fa-twitter fa-lg"></i></a>
+      </div>
+      <p class="mt-4 md:mt-0">&copy; 2023 VerdeVista. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
