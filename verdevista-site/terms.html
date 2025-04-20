@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms & Conditions - VerdeVista</title>
+  <meta name="description" content="Read the terms and conditions for using VerdeVista's website and purchasing our eco-friendly skincare products." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="main.js" defer></script>
+</head>
+<body class="font-montserrat bg-white text-gray-800 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-green-100 shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold text-green-700">VerdeVista</a>
+      <nav class="hidden md:flex space-x-6 text-green-700 font-semibold">
+        <a href="index.html" class="hover:text-green-900">Home</a>
+        <a href="catalog.html" class="hover:text-green-900">Products</a>
+        <a href="about.html" class="hover:text-green-900">About Us</a>
+        <a href="contact.html" class="hover:text-green-900">Contact Us</a>
+        <a href="terms.html" class="hover:text-green-900">Terms & Conditions</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button id="cart-button" aria-label="Shopping Cart" class="relative text-green-700 hover:text-green-900 focus:outline-none">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+          <span id="cart-count" class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">0</span>
+        </button>
+        <button id="mobile-menu-button" class="md:hidden text-green-700 hover:text-green-900 focus:outline-none">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden md:hidden bg-green-50 p-4 space-y-2">
+      <a href="index.html" class="block text-green-700 font-semibold hover:text-green-900">Home</a>
+      <a href="catalog.html" class="block text-green-700 font-semibold hover:text-green-900">Products</a>
+      <a href="about.html" class="block text-green-700 font-semibold hover:text-green-900">About Us</a>
+      <a href="contact.html" class="block text-green-700 font-semibold hover:text-green-900">Contact Us</a>
+      <a href="terms.html" class="block text-green-700 font-semibold hover:text-green-900">Terms & Conditions</a>
+    </nav>
+  </header>
+
+  <!-- Terms & Conditions Content -->
+  <main class="container mx-auto px-4 py-16 max-w-4xl">
+    <h1 class="text-4xl font-bold text-green-800 mb-8 text-center">Terms & Conditions</h1>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
+      <p>Welcome to VerdeVista. By using our website and purchasing our products, you agree to the following terms and conditions. Please read them carefully.</p>
+    </section>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Website Usage</h2>
+      <p>You agree to use this website in compliance with all applicable laws and not to engage in any harmful or illegal activities.</p>
+    </section>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Purchases</h2>
+      <p>All purchases are subject to product availability. Payment must be made in full before shipment. Shipping times and costs are estimates and may vary.</p>
+      <p>Returns and refunds are handled according to our return policy, which can be found on the website.</p>
+    </section>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Privacy Policy</h2>
+      <p>Your privacy is important to us. Please review our <a href="privacy.html" class="text-green-800 hover:underline">Privacy Policy</a> for details on how we collect and use your information.</p>
+    </section>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Governing Law</h2>
+      <p>These terms are governed by the laws of the jurisdiction in which VerdeVista operates.</p>
+    </section>
+
+    <section class="mb-8 text-green-700">
+      <h2 class="text-2xl font-semibold mb-4">Changes to Terms</h2>
+      <p>VerdeVista reserves the right to update these terms at any time. Continued use of the website constitutes acceptance of any changes.</p>
+    </section>
+
+    <div class="text-center">
+      <button id="accept-terms" class="bg-green-700 text-white px-6 py-3 rounded shadow hover:bg-green-800 transition">Accept Terms</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-200 py-8 mt-auto">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-green-800 text-sm">
+      <nav class="space-x-6 mb-4 md:mb-0">
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="contact.html" class="hover:underline">Contact Us</a>
+        <a href="terms.html" class="hover:underline">Terms & Conditions</a>
+      </nav>
+      <div class="flex space-x-6">
+        <a href="#" aria-label="Instagram" class="hover:text-green-900"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" aria-label="Facebook" class="hover:text-green-900"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" aria-label="Pinterest" class="hover:text-green-900"><i class="fab fa-pinterest fa-lg"></i></a>
+        <a href="#" aria-label="Twitter" class="hover:text-green-900"><i class="fab fa-twitter fa-lg"></i></a>
+      </div>
+      <p class="mt-4 md:mt-0">&copy; 2023 VerdeVista. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('accept-terms').addEventListener('click', () => {
+      alert('Thank you for accepting the terms and conditions.');
+    });
+  </script>
+
+</body>
+</html>
